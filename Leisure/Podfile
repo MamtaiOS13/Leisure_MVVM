@@ -8,7 +8,6 @@ target 'Leisure' do
   # Pods for Leisure
   
   pod 'SDWebImage'
-  pod 'SwiftLint'
 
   target 'LeisureTests' do
     inherit! :search_paths

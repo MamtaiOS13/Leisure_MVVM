@@ -18,8 +18,7 @@ class LELoginViewController: UIViewController, LELoginViewModelDelegate {
     @IBAction func getValidSessionIdAction(_ sender: Any) {
         self.activityIndicator?.isHidden = false
         self.activityIndicator?.startAnimating()
-//        viewModel.getValidSessionId()
-        Utility.goToMainScreen()
+        viewModel.getValidSessionId()
     }
     func hideLoader() {
         DispatchQueue.main.async {
